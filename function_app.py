@@ -16,7 +16,7 @@ access_token_secret = os.environ.get('access_token_secret')
 app = func.FunctionApp()
 
 def random_fact():
-    return "github action test"
+    return "first tweet"
 
 
 def format_fact(fact):
