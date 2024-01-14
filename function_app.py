@@ -11,17 +11,12 @@ consumer_secret = os.environ.get('consumer_secret')
 access_token = os.environ.get('access_token')
 access_token_secret = os.environ.get('access_token_secret')
 
-"""
-consumer_key = "5EpSjdeIEIgx7VHSrRgSLiX71"
-consumer_secret = "hsuldavWJbZf4HTOSnCVnSZoJVmfBozFFdlYuE2224yJmpYLxD"
-access_token = "1742616723243634688-zGTArqP1243tXaHATAmWk00NhOdGJt"
-access_token_secret = "hNJUyn9jdi7CcpE6tiIJMl4ReT1G8L2TXTa6PpZaMjKPg"
-"""
+
 
 app = func.FunctionApp()
 
 def random_fact():
-    return "Hello world, this time from azure "
+    return "github action test"
 
 
 def format_fact(fact):
