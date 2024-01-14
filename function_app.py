@@ -12,11 +12,10 @@ access_token = os.environ.get('access_token')
 access_token_secret = os.environ.get('access_token_secret')
 
 
-
 app = func.FunctionApp()
 
 def random_fact():
-    return "hello from visual"
+    return "test with github"
 
 
 def format_fact(fact):
